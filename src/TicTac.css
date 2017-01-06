@@ -18,7 +18,8 @@ ol, ul {
 }
 
 .game-board{
-  display: block;
+  margin: 0.5em;
+  display: inline-block;
 }
 
 .square {

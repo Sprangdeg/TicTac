@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Game from './TicTac'
+import Games from './TicTac'
 
 class App extends Component {
   render() {
@@ -12,7 +12,7 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div>
         <div className="game-margin">
-          <Game />
+          <Games />
         </div>
       </div>
     );
