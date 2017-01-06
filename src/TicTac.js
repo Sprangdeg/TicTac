@@ -99,8 +99,8 @@ class Game extends Component {
          squares: squares
        }]),
        xIsNext: !this.state.xIsNext,
+       stepNumber: history.length
      });
-     this.state.stepNumber = history.length;
     }
   }
 
